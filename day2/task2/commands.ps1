@@ -1,0 +1,2 @@
+New-AzPolicyDefinition -Name "POLDEF-BlobDiagnostics" -Policy policy.json -Parameter policy.parameters.json
+New-AzPolicyDefinition -Name "POLDEF-DeniedResources" -Policy policy.json -Parameter policy.parameters.json
